@@ -250,7 +250,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <div onClick={handleprevius}className="hover:cursor-pointer rounded-xl hover:bg-[#192a35] ">
+              <div onClick={handleprevius} className="hover:cursor-pointer rounded-xl hover:bg-[#192a35] ">
                 {
                   reff1<1?<img src="/previousicon1.svg" alt="" />:<img src="/previousicon.svg" alt="" />
                 }
